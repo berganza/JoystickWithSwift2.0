@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A048EA01BC1B07B00BAE993 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9A048E9F1BC1B07B00BAE993 /* GameScene.sks */; settings = {ASSET_TAGS = (); }; };
+		9AA777B41BC10CB00063CE4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA777B31BC10CB00063CE4F /* AppDelegate.swift */; };
+		9AA777B81BC10CB00063CE4F /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA777B71BC10CB00063CE4F /* GameScene.swift */; };
+		9AA777BA1BC10CB00063CE4F /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA777B91BC10CB00063CE4F /* GameViewController.swift */; };
+		9AA777BD1BC10CB00063CE4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AA777BB1BC10CB00063CE4F /* Main.storyboard */; };
+		9AA777BF1BC10CB00063CE4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AA777BE1BC10CB00063CE4F /* Assets.xcassets */; };
+		9AA777C21BC10CB00063CE4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AA777C01BC10CB00063CE4F /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9A048E9F1BC1B07B00BAE993 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		9AA777B01BC10CAF0063CE4F /* JoystickDOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JoystickDOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AA777B31BC10CB00063CE4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9AA777B71BC10CB00063CE4F /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		9AA777B91BC10CB00063CE4F /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		9AA777BC1BC10CB00063CE4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9AA777BE1BC10CB00063CE4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9AA777C11BC10CB00063CE4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9AA777C31BC10CB00063CE4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9AA777AD1BC10CAF0063CE4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9AA777A71BC10CAF0063CE4F = {
+			isa = PBXGroup;
+			children = (
+				9AA777B21BC10CAF0063CE4F /* JoystickDOS */,
+				9AA777B11BC10CAF0063CE4F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9AA777B11BC10CAF0063CE4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AA777B01BC10CAF0063CE4F /* JoystickDOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AA777B21BC10CAF0063CE4F /* JoystickDOS */ = {
+			isa = PBXGroup;
+			children = (
+				9AA777B31BC10CB00063CE4F /* AppDelegate.swift */,
+				9A048E9F1BC1B07B00BAE993 /* GameScene.sks */,
+				9AA777B71BC10CB00063CE4F /* GameScene.swift */,
+				9AA777B91BC10CB00063CE4F /* GameViewController.swift */,
+				9AA777BB1BC10CB00063CE4F /* Main.storyboard */,
+				9AA777BE1BC10CB00063CE4F /* Assets.xcassets */,
+				9AA777C01BC10CB00063CE4F /* LaunchScreen.storyboard */,
+				9AA777C31BC10CB00063CE4F /* Info.plist */,
+			);
+			path = JoystickDOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9AA777AF1BC10CAF0063CE4F /* JoystickDOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AA777C61BC10CB00063CE4F /* Build configuration list for PBXNativeTarget "JoystickDOS" */;
+			buildPhases = (
+				9AA777AC1BC10CAF0063CE4F /* Sources */,
+				9AA777AD1BC10CAF0063CE4F /* Frameworks */,
+				9AA777AE1BC10CAF0063CE4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JoystickDOS;
+			productName = JoystickDOS;
+			productReference = 9AA777B01BC10CAF0063CE4F /* JoystickDOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9AA777A81BC10CAF0063CE4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Berganza;
+				TargetAttributes = {
+					9AA777AF1BC10CAF0063CE4F = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 9AA777AB1BC10CAF0063CE4F /* Build configuration list for PBXProject "JoystickDOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9AA777A71BC10CAF0063CE4F;
+			productRefGroup = 9AA777B11BC10CAF0063CE4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9AA777AF1BC10CAF0063CE4F /* JoystickDOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9AA777AE1BC10CAF0063CE4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A048EA01BC1B07B00BAE993 /* GameScene.sks in Resources */,
+				9AA777C21BC10CB00063CE4F /* LaunchScreen.storyboard in Resources */,
+				9AA777BF1BC10CB00063CE4F /* Assets.xcassets in Resources */,
+				9AA777BD1BC10CB00063CE4F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9AA777AC1BC10CAF0063CE4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AA777B81BC10CB00063CE4F /* GameScene.swift in Sources */,
+				9AA777BA1BC10CB00063CE4F /* GameViewController.swift in Sources */,
+				9AA777B41BC10CB00063CE4F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9AA777BB1BC10CB00063CE4F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AA777BC1BC10CB00063CE4F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9AA777C01BC10CB00063CE4F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AA777C11BC10CB00063CE4F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9AA777C41BC10CB00063CE4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9AA777C51BC10CB00063CE4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9AA777C71BC10CB00063CE4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JoystickDOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.llberganza.JoystickDOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9AA777C81BC10CB00063CE4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JoystickDOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.llberganza.JoystickDOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9AA777AB1BC10CAF0063CE4F /* Build configuration list for PBXProject "JoystickDOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AA777C41BC10CB00063CE4F /* Debug */,
+				9AA777C51BC10CB00063CE4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AA777C61BC10CB00063CE4F /* Build configuration list for PBXNativeTarget "JoystickDOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AA777C71BC10CB00063CE4F /* Debug */,
+				9AA777C81BC10CB00063CE4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9AA777A81BC10CAF0063CE4F /* Project object */;
+}
